@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{beamer}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{biblatex}
+\usepackage{fontspec}
+\setmainfont{FiraSans-Light.ttf}
+%\usetkzobj{all}
+\addbibresource{references.bib}
+\usetikzlibrary{quotes,angles}
+\usetheme{metropolis}
+\usecolortheme{}
+\title[] %optional
+{Presentation Name}
+\subtitle{Subtitle}
+\author[Name] % (optional)
+{Name}
+\institute[Intitute] % (optional)
+{
+  Institute
+}
+%\titlegraphic{\includegraphics[scale=0.4]{lrc-logo-banner.jpg}}
+
+\date[Semester] % (optional)
+{}
+
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+% Use a simple TikZ graphic to show where the logo is positioned
+
+\begin{document}
+\maketitle
+\frametitle{Table of Contents}
+\tableofcontents
+
+%Highlighting text
+
+
+\end{document}
